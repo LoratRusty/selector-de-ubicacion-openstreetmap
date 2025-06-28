@@ -53,18 +53,7 @@ Una aplicación web **100% gratuita** para seleccionar ubicaciones usando OpenSt
 
 ---
 
-## 🚀 Inicio Rápido
-
-### Opción 1: Instalación Rápida
-
-```bash
-npx create-next-app@latest mi-selector-ubicacion --typescript --tailwind --eslint
-cd mi-selector-ubicacion
-# Copia los archivos del proyecto
-npm run dev
-```
-
-### Opción 2: Clonar Repositorio
+## 🚀 Inicio Rápido - Clonar Repositorio
 
 ```bash
 git clone https://github.com/LoratRusty/selector-de-ubicacion-openstreetmap.git
@@ -73,7 +62,7 @@ npm install
 npm run dev
 ```
 
-**Abre http://localhost:3000** 🎉
+**Abre http://localhost:3000** (o en el puerto que tengas configurado)🎉
 
 ---
 
@@ -180,16 +169,6 @@ function FormularioUbicacion() {
 ---
 
 ## 🔧 Configuración Avanzada
-
-### Variables de Entorno (Opcionales)
-
-```env
-# .env.local
-NEXT_PUBLIC_DEFAULT_LAT=40.4168
-NEXT_PUBLIC_DEFAULT_LNG=-3.7038
-NEXT_PUBLIC_DEFAULT_ZOOM=10
-NEXT_PUBLIC_SEARCH_COUNTRIES=es,mx,ar,co,pe,cl,ve,ec,bo,py,uy
-```
 
 ### Personalización del Componente
 
@@ -371,7 +350,8 @@ CMD ["npm", "start"]
 
 ```bash
 # Fork del repositorio
-git clone https://github.com/tu-usuario/selector-ubicacion.git
+git clone https://github.com/LoratRusty/selector-de-ubicacion-openstreetmap.git
+
 cd selector-ubicacion
 
 # Crear rama para feature
@@ -411,7 +391,7 @@ git push origin feature/nueva-funcionalidad
 - Sistema de diagnóstico
 - Manejo robusto de errores
 
-### 🚧 Próximas Versiones
+<!-- ### 🚧 Próximas Versiones
 
 #### v1.1 - Mejoras de UX
 - 🔄 Modo offline completo
@@ -431,7 +411,7 @@ git push origin feature/nueva-funcionalidad
 - 🔗 Webhooks
 - 📦 NPM package
 
----
+--- -->
 
 ## 📄 Licencia
 
@@ -440,7 +420,7 @@ Este proyecto está bajo la **Licencia MIT**. Ver el archivo [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Selector de Ubicación
+Copyright (c) 2025 José L. De Sousa P.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -475,7 +455,7 @@ SOFTWARE.
 
 ## 📞 Soporte
 
-- 📧 **Email**: soporte@selector-ubicacion.com
+- 📧 **Email**: ing.jds.dev@gmail.com
 - 🐛 **Issues**: [GitHub Issues](https://github.com/LoratRusty/selector-de-ubicacion-openstreetmap/issues)
 - 📖 **Documentación**: [/documentacion](./app/documentacion/page.tsx)
 - 🔧 **Diagnóstico**: [/diagnostico](./app/diagnostico/page.tsx)
