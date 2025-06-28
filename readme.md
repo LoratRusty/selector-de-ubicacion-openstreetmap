@@ -4,7 +4,7 @@ Una aplicación web **100% gratuita** para seleccionar ubicaciones usando OpenSt
 
 [![Estado](https://img.shields.io/badge/Estado-Activo-brightgreen)](https://selector-de-ubicacion-openstreetmap.vercel.app/)
 [![Tecnología](https://img.shields.io/badge/Tecnología-React%20%7C%20Next.js%20%7C%20TypeScript-orange)](#tecnologías-utilizadas)
-[![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)](#licencia)
+[![Licencia](https://img.shields.io/badge/Licencia-MIT-blue)](LICENSE)
 
 ## 🚀 Demo en Vivo
 
